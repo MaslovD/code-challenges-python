@@ -15,4 +15,4 @@ def solution(a):
 
 
 if __name__ == '__main__':
-    print(solution_v2([0, 2, 1, 0, 2, 1, 7]))
+    print(solution([0, 2, 1, 0, 2, 1, 7]))
