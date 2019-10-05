@@ -9,9 +9,19 @@ def revers_string(input_string):
     return result_string
 
 
+def revers_build_in(input_string):
+    return input_string[::-1]
+
+
 if __name__ == '__main__':
     input_string = "test string"
     start = time()
     print(revers_string(input_string))
+    elapsed_time = time() - start
+    print(elapsed_time)
+
+    input_string = "test string"
+    start = time()
+    print(revers_build_in(input_string))
     elapsed_time = time() - start
     print(elapsed_time)
