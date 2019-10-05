@@ -45,8 +45,7 @@ class LinkedList:
     def printList(self):
         temp = self.head
         while (temp):
-            print
-            temp.data,
+            print(temp.data)
             temp = temp.next
 
 
@@ -65,6 +64,4 @@ if __name__ == '__main__':
     llist.sorted_insert(new_node)
     new_node = Node(9)
     llist.sorted_insert(new_node)
-    print
-    "Create Linked List"
-    llist.printList()
+    print("Create Linked List", llist.printList())
